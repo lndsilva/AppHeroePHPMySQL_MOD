@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_UPDATE_HERO, params, CODE_POST_REQUEST);
         request.execute();
 
-        buttonAddUpdate.setText("Adicionar");
+        buttonAddUpdate.setText("Alterado");
 
         editTextName.setText("");
         editTextRealname.setText("");
